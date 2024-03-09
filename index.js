@@ -18,37 +18,37 @@ function playMusic(pressedKey){
     switch (pressedKey) {
         case "w":
             animation("w");
-            new Audio("/sounds/tom-1.mp3").play();
+            new Audio("./sounds/tom-1.mp3").play();
             break;
         
         case "a":
-            animation("a")
+            animation("a");
             new Audio("/sounds/tom-2.mp3").play();
             break;
         
         case "s":
             animation("s");
-            new Audio("/sounds/tom-3.mp3").play();
+            new Audio("./sounds/tom-3.mp3").play();
             break;
         
         case "d":
             animation("d");
-            new Audio("/sounds/tom-4.mp3").play();
+            new Audio("./sounds/tom-4.mp3").play();
             break;
         
         case "j":
             animation("j");
-            new Audio("/sounds/snare.mp3").play();
+            new Audio("./sounds/snare.mp3").play();
             break;
         
         case "k":
             animation("k");
-            new Audio("/sounds/crash.mp3").play();
+            new Audio("./sounds/crash.mp3").play();
             break;
         
         case "l":
             animation("l");
-            new Audio("/sounds/kick-bass.mp3").play();
+            new Audio("./sounds/kick-bass.mp3").play();
             break;
         
         default:
