@@ -23,7 +23,7 @@ function playMusic(pressedKey){
         
         case "a":
             animation("a");
-            new Audio("/sounds/tom-2.mp3").play();
+            new Audio("./sounds/tom-2.mp3").play();
             break;
         
         case "s":
@@ -60,7 +60,6 @@ function playMusic(pressedKey){
 // animation
 function animation(getClassName){
     document.querySelector("."+getClassName).classList.toggle("pressed");
-    // setTimeout(document.querySelector("."+getClassName).classList.toggle("pressed"), 100);
     setTimeout(function(){
         document.querySelector("."+getClassName).classList.toggle("pressed");
     },100);
